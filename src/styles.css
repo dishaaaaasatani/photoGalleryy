@@ -1,0 +1,101 @@
+.container {
+    max-width: 800px; /* Adjust the width to fit your design */
+    margin: 40px auto; /* Center the container */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .upload-form input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .upload-form input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .image-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: 180px; /* Set a fixed height for the image */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top of the image */
+  }
+  
+  .image-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex: 1; /* Allow paragraph to grow and fill remaining space */
+    overflow-y: auto; /* Add a scrollbar if the text overflows */
+  }
+  
+  .image-card button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-card button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    width: 45%; 
+    margin: 5px; 
+  }
